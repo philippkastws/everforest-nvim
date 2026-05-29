@@ -69,6 +69,7 @@
 ---@field statusline1 string
 ---@field statusline2 string
 ---@field statusline3 string
+---@field keyword string
 ---@field none string
 
 ---@class Everforest.Palette: Everforest.PaletteBase,Everforest.PaletteBackground
