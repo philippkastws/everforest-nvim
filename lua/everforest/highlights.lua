@@ -323,10 +323,10 @@ highlights.generate_syntax = function(palette, options)
     PreCondit = syntax_entry(palette.purple, palette.none, optional_italics),
     Include = syntax_entry(palette.purple, palette.none, optional_italics),
     Define = syntax_entry(palette.purple, palette.none, optional_italics),
-    Conditional = syntax_entry(palette.red, palette.none, optional_italics),
+    Conditional = syntax_entry(palette.keyword, palette.none, optional_italics),
     Repeat = syntax_entry(palette.red, palette.none, optional_italics),
     Keyword = syntax_entry(palette.keyword, palette.none, optional_italics),
-    Typedef = syntax_entry(palette.red, palette.none, optional_italics),
+    Typedef = syntax_entry(palette.keyword, palette.none, optional_italics),
     Exception = syntax_entry(palette.red, palette.none, optional_italics),
     Statement = syntax_entry(palette.keyword, palette.none, optional_italics),
 
