@@ -476,7 +476,7 @@ highlights.generate_syntax = function(palette, options)
     TSCharacter = { link = "Aqua" },
     TSCharacterSpecial = { link = "SpecialChar" },
     TSComment = { link = "Comment" },
-    TSConditional = { link = "Red" },
+    TSConditional = { link = "Keyword" },
     TSConstBuiltin = { link = "PurpleItalic" },
     TSConstMacro = { link = "PurpleItalic" },
     TSConstant = { link = "Constant" },
@@ -493,7 +493,7 @@ highlights.generate_syntax = function(palette, options)
     TSFuncMacro = { link = "Green" },
     TSFunction = { link = "Green" },
     TSFunctionCall = { link = "Green" },
-    TSInclude = { link = "Red" },
+    TSInclude = { link = "Keyword" },
     TSKeyword = syntax_entry("#30baac", palette.none, optional_italics),
     TSKeywordFunction = syntax_entry("#30baac", palette.none, optional_italics),
     TSKeywordOperator = { link = "Orange" },
@@ -794,7 +794,7 @@ highlights.generate_syntax = function(palette, options)
     ["@lsp.typemod.variable.defaultLibrary.typescript"] = { link = "@constant.builtin" },
     ["@lsp.typemod.variable.defaultLibrary.typescriptreact"] = { link = "@constant.builtin" },
     ["@lsp.typemod.variable.injected"] = { link = "@variable" },
-    ["@lsp.typemod.variable.static"] = { link = "Red" },
+    ["@lsp.typemod.variable.static"] = { link = "Keyword" },
 
     -- nvim-treesitter/nvim-treesitter-context
     TreesitterContext = syntax_entry(palette.fg, palette.bg2),
@@ -1172,7 +1172,7 @@ highlights.generate_syntax = function(palette, options)
     BufTabLineFill = { link = "TabLineFill" },
 
     -- folke/which-key.nvim
-    WhichKey = { link = "Red" },
+    WhichKey = { link = "Keyword" },
     WhichKeyDesc = { link = "Blue" },
     WhichKeyFloat = syntax_entry(palette.none, palette.bg1),
     WhichKeyGroup = { link = "Yellow" },
@@ -1894,8 +1894,8 @@ highlights.generate_syntax = function(palette, options)
     markdownCodeBlock = { link = "Aqua" },
     markdownCodeDelimiter = { link = "Aqua" },
     markdownBlockquote = { link = "Grey" },
-    markdownListMarker = { link = "Red" },
-    markdownOrderedListMarker = { link = "Red" },
+    markdownListMarker = { link = "Keyword" },
+    markdownOrderedListMarker = { link = "Keyword" },
     markdownRule = { link = "Purple" },
     markdownHeadingRule = { link = "Grey" },
     markdownUrlDelimiter = { link = "Grey" },
@@ -2140,7 +2140,7 @@ highlights.generate_syntax = function(palette, options)
     shCmdSubRegion = { link = "Green" },
     shCommandSub = { link = "Orange" },
     shFunction = { link = "Green" },
-    shFunctionKey = { link = "RedItalic" },
+    shFunctionKey = { link = "Keyword" },
 
     -- ZSH
     zshOptStart = { link = "PurpleItalic" },
