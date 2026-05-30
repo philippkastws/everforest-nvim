@@ -328,7 +328,7 @@ highlights.generate_syntax = function(palette, options)
     Keyword = syntax_entry(palette.keyword, palette.none, optional_italics),
     Typedef = syntax_entry(palette.red, palette.none, optional_italics),
     Exception = syntax_entry(palette.red, palette.none, optional_italics),
-    Statement = syntax_entry(palette.red, palette.none, optional_italics),
+    Statement = syntax_entry(palette.keyword, palette.none, optional_italics),
 
     Error = syntax_entry(palette.red, palette.none),
     StorageClass = syntax_entry(palette.orange, palette.none),
